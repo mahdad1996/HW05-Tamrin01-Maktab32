@@ -60,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575288542592</updated>
-      <workItem from="1575288546131" duration="5635000" />
+      <workItem from="1575288546131" duration="5798000" />
+      <workItem from="1575305221536" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="delete method implemented by Consumer">
       <created>1575290609986</created>
@@ -80,7 +81,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

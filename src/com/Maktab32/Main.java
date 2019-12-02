@@ -8,24 +8,23 @@ import java.util.function.Predicate;
 public class Main {
 
     public Main(){
-        ArrayList<Integer> integers = new ArrayList<>();
-
-        integers.add(3);
-        integers.add(7);
-        integers.add(9);
-        integers.add(2);
-        integers.add(5);
-        integers.add(5);
-        integers.add(8);
-        integers.add(5);
-        integers.add(6);
-        integers.add(3);
-        integers.add(4);
-        integers.add(7);
-        integers.add(3);
-        integers.add(1);
-        integers.add(8);
-
+        ArrayList<Integer> integers = new ArrayList<>(){{
+            add(3);
+            add(7);
+            add(9);
+            add(2);
+            add(5);
+            add(5);
+            add(8);
+            add(5);
+            add(6);
+            add(3);
+            add(4);
+            add(7);
+            add(3);
+            add(1);
+            add(8);
+        }};
 
 
         deleteByConsumer(integers);
